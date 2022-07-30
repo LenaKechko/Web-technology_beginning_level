@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url("https://source.unsplash.com/z8YeJOMn51A/400x400"); /*фоном контейнера станет изображение*/
+    width: 300px; /*ширина блока*/
+    height: 300px; /*высота блока*/
+    background-position: 40% 10%; /*задает начальное положение фонового изображения*/
+}
+
+#title {
+    padding-top: 125px; /*смещаем текст вниз 125px*/
+    color: #e3d1b8; /*цвет текста*/
+    font-size: 40px; /*размер текста*/
+    text-align: center; /*центрирование текста*/
+}
+
+p {
+    padding-top: 80px; /*смещаем текст вниз 80px*/
+    color: #110301; /*цвет текста*/
+    font-size: 14px; /*размер текста*/
+    text-align: center; /*центрирование текста*/
+}

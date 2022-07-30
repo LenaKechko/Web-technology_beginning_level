@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order in Coffee House</title>
+    <link rel="stylesheet" href="../styles/taskTwentyFourStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header">Coffee House</header>
+<main class="main">
+    <div class="data_about_person">
+        <input type="text" class="lastname" placeholder="Введите Фамилию">
+        <input type="text" class="name" placeholder="Введите Имя">
+    </div>
+
+    <div class="choice_coffee_and_food">
+        <div class="choice_coffee">
+            <div class="coffee">
+                <input type="checkbox" class="custom-checkbox" id="espresso" name="coffee" value="80">
+                <label for="espresso">Эспрессо 80p.</label>
+                <input type="text" name="espresso" class="count" value="0">
+            </div>
+            <div class="coffee">
+                <input type="checkbox" class="custom-checkbox" id="latte" name="coffee" value="110">
+                <label for="latte">Латте 110p.</label>
+                <input type="text" name="latte" class="count" value="0">
+            </div>
+            <div class="coffee">
+                <input type="checkbox" class="custom-checkbox" id="cappuccino" name="coffee" value="120">
+                <label for="cappuccino">Капучино 120p.</label>
+                <input type="text" name="cappuccino" class="count" value="0">
+            </div>
+            <div class="coffee">
+                <input type="checkbox" class="custom-checkbox" id="americano" name="coffee" value="90">
+                <label for="americano">Американо 90p.</label>
+                <input type="text" name="americano" class="count" value="0">
+            </div>
+        </div>
+
+        <div class="choice_food">
+            <div class="food">
+                <input type="checkbox" class="custom-checkbox" id="chocolate_muffin" name="food" value="80">
+                <label for="chocolate_muffin">Шоколадный кекс 80p.</label>
+                <input type="text" name="chocolate_muffin" class="count" value="0">
+            </div>
+            <div class="food">
+                <input type="checkbox" class="custom-checkbox" id="blueberry_muffin" name="food" value="90">
+                <label for="blueberry_muffin">Черничный кекс 90p.</label>
+                <input type="text" name="blueberry_muffin" class="count" value="0">
+            </div>
+            <div class="food">
+                <input type="checkbox" class="custom-checkbox" id="apple_tart" name="food" value="100">
+                <label for="apple_tart">Яблочный тарт 100p.</label>
+                <input type="text" name="apple_tart" class="count" value="0">
+            </div>
+        </div>
+    </div>
+    <div>
+        <p>Итого: <span class="bill">0</span> р.</p>
+        <input class="btn" type="button" value="Оформить заказ">
+    </div>
+</main>
+<script src="../js/taskTwentyFourJS.js"></script>
+</body>
+</html>

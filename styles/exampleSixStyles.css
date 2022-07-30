@@ -1,0 +1,12 @@
+button {
+    border: 0; /*убрали рамку вокруг*/
+    border-radius: 7px; /*закруглили края*/
+    background-color: #048075; /*цвет фона кнопки*/
+    color: #fff; /*цвет текста*/
+    padding: 10px 20px; /*внутренние отступы*/
+    font-size: 16px; /*размер текста*/
+    text-transform: uppercase; /*заглавные буквы*/
+    font-weight: 300; /*толщина букв*/
+    font-family: Roboto; /*шрифт*/
+    cursor: pointer; /*изменили курсор на пальчик*/
+}

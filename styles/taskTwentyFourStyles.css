@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Oswald';
+    font-style: normal;
+}
+
+.header {
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+    padding: 29px 0px;
+}
+
+.main{
+    background: #817070;
+    padding-top: 86px;
+    padding-bottom: 35px;
+}
+
+.data_about_person {
+    display: flex;
+    justify-content: center;
+}
+
+.lastname, .name {
+    width: 300px;
+    height: 55px;
+    background: #817070;
+    border: 3px solid #FFFFFF;
+    font-family: 'Oswald';
+    font-style: normal;
+    background: #817070;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.lastname {
+    margin-right: 64px;
+}
+
+input::placeholder{
+    font-family: 'Oswald';
+    font-style: normal;
+    background: #817070;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.choice_coffee_and_food {
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+    margin-bottom: 39px;
+}
+
+.choice_coffee {
+    margin-right: 132px;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 23px;
+    background: #817070;
+    margin-right: 16px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 3px solid #FFFFFF;
+}
+
+.custom-checkbox:checked+label::before {
+    background-color: #613838;
+}
+
+label {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.coffee label {
+    width: 160px;
+    margin-right: 17px;
+}
+
+.food label {
+    width: 210px;
+    margin-right: 23px;
+}
+
+.count {
+    width: 130px;
+    height: 55px;
+    box-sizing: border-box;
+    background: #817070;
+    border: 3px solid #FFFFFF;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+p {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.btn {
+    width: 190px;
+    height: 55px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #817070;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    pading: 13px 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background: #817070;
+}
+

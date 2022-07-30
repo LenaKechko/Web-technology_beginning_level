@@ -1,0 +1,8 @@
+div{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+label{
+    width: 80px;
+}
